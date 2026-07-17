@@ -2,6 +2,7 @@
 S&amp;box library that makes it easy to multiplayer
 # How to use it?
 It's easy! Just drag and drop server prefab into your scene and congifure it.
+
 There are many options to configure so let me tell you about everything.
 Player Prefab - The player prefabs server uses for players. You can set default one from the library, or set yours.
 Players - The list of all players on the server.
