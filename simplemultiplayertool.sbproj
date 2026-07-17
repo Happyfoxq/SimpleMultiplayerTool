@@ -1,0 +1,14 @@
+{
+  "Title": "Simple Multiplayer Tool",
+  "Type": "library",
+  "Org": "computerhumorist",
+  "Ident": "simplemultiplayertool",
+  "Schema": 1,
+  "IncludeSourceFiles": false,
+  "Resources": null,
+  "PackageReferences": [],
+  "EditorReferences": null,
+  "Mounts": null,
+  "IsStandaloneOnly": false,
+  "Metadata": {}
+}

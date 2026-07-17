@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Editor": {
+      "commandName": "Executable",
+      "executablePath": "../../../../../../../../../Program Files (x86)/Steam/steamapps/common/sbox/sbox-dev.exe",
+      "commandLineArgs": "-project \u0022c:\\users\\\u0441\u0441150\\documents\\s\u0026box projects\\smttest\\Libraries\\SimpleMultiplayerTool\\simplemultiplayertool.sbproj\u0022"
+    }
+  }
+}
