@@ -13,9 +13,9 @@ There are many options to configure so let me tell you about everything.
 # Time - The main timer of your gamemode.
 # Game Time - How long the game will be.
 # Relax Time - How long the relax after game will be.
-# Game Spawn Point & Relax Spawn Point - Spawn points for when your game starts, and when it ends.
+# First Spawn Point - Spawn point where player firstly spawn when he connects to the game.
 # Is Game Running - Bool that tells if is game running or not.
-# Spawn Points - Other spawn points.
+# Spawn Points - Spawn points your game uses.
 # Min Players Need - Do i really need to explain something here?
 # Debug Mode - Igrnores min players need if true
 # On Game Started - Action that invokes when the game starts
