@@ -1,4 +1,4 @@
-# SimpleMultiplayerTool
+# SimpleMultiplayerTool V0.2
 S&amp;box library that makes it easy to multiplayer
 # How to use it?
 It's easy! Just drag and drop server prefab into your scene and congifure it.
