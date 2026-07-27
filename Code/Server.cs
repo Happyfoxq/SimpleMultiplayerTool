@@ -25,9 +25,8 @@ public sealed class Server : Component, Component.INetworkListener
     [Property] public bool DoesPlayersNeedMoney;
     [Property] public float time;
     [Property] public float GameTime;
-    [Property] public GameObject GameSpawnPoint;
+    [Property] public GameObject FirstSpawnPoint;
     [Property] public float RelaxTime;
-    [Property] public GameObject RelaxSpawnPoint;
     [Property] public bool IsGameRunning;
     [Property] public List<GameObject> SpawnPoints;
     [Property] public int MinPlayersNeed;
@@ -142,7 +141,7 @@ public sealed class Server : Component, Component.INetworkListener
         Log.Info( $"Player '{channel.Name}' has joined the game" );
         if ( !PlayerPrefab.IsValid() )
 			return;
-        var player = PlayerPrefab.Clone( RelaxSpawnPoint.GetComponent<Transform>(), name: $"Player - {channel.Name}" );
+        var player = PlayerPrefab.Clone( FirstSpawnPoint.GetComponent<Transform>(), name: $"Player - {channel.Name}" );
         player.GetComponentInChildren<TextRenderer>().Text = channel.Name;
         player.NetworkSpawn( channel );
         Players.Add( player );
